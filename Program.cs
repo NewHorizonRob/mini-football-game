@@ -9,10 +9,13 @@ namespace Ch4_Football
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
+            #next two lines calls the FootballTeam method to create two new instances Clemson and Alabama
             FootballTeam Clemson = new FootballTeam("Clemson");
             FootballTeam Alabama = new FootballTeam("Alabama");
-
+            
+            
+            # below are the calls to the methods from the program part of the project using the two new instances
             Alabama.ScoreTouchDown();
             Alabama.ExtraPoint();
             Clemson.ScoreTouchDown();
